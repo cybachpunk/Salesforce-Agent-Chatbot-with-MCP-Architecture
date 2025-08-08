@@ -1,4 +1,4 @@
-# Salesforce Agent Chatbot with Gemini, LangChain, and LangGraph
+# Salesforce Agent Chatbot with MCP Architecture
 
 ## Overview
 
