@@ -10,10 +10,10 @@ MCP is a rapidly growing domain and its likely that many applications moving for
 
 ## Architecture
 
-1.  **Chatbot App (`chatbot_app.py`)**: A lightweight client that sends user queries to the MCP server. It no longer contains any complex logic.
+1.  **Chatbot App (`chatbot_app.py`)**: A lightweight client that sends user queries to the MCP server. It hosts simple logic for interaction passed off to the MCP server for processing.
 2.  **MCP Server (`mcp_server.py`)**: Hosts the conversational agent. Its role is to receive requests, pass them to the agent, and stream the response back to the client.
 3.  **LangGraph Agent (`langgraph_agent.py`)**: The brain of the operation. It uses Gemini to understand the user, decide on actions, and call the appropriate tools.
-4.  **Tools (`salesforce_integration.py`, `external_integrations.py`)**: These are functions that the LangGraph agent can call.
+4.  **Tools (`salesforce_integration.py`, `external_integrations.py`)**: Functions that the LangGraph agent can call, typically to other integrations external to the immediate build. More importantly, their development cycles sit independent of this architecture, allowing the organization to stay agile in their prioritization of modernization.
 
 ### Data Flow
 
