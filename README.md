@@ -1,3 +1,5 @@
+[![MSeeP.ai Security Assessment Badge](https://mseep.net/pr/cybachpunk-salesforce-agent-chatbot-with-mcp-architecture-badge.png)](https://mseep.ai/app/cybachpunk-salesforce-agent-chatbot-with-mcp-architecture)
+
 # Salesforce Agent Chatbot with MCP Architecture
 
 ## Overview
